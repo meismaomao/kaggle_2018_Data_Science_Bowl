@@ -77,9 +77,9 @@ def _generator_dataset_and_label_batch(image, mask, boundary,
             capacity=min_queue_examples + 3 * batch_size)
 
     # Display the training images in the visualizer.
-    tf.summary.image('images', images)
-    tf.summary.image('mask', mask)
-    tf.summary.image('bounday', boundary)
+    # tf.summary.image('images', images)
+    # tf.summary.image('mask', mask)
+    # tf.summary.image('bounday', boundary)
 
     return images, masks, boundaries
 

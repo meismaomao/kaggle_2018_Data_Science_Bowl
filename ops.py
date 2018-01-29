@@ -42,7 +42,7 @@ def deconv2d_1(input, height, width, output_channels, input_channels, is_train,
 		if not activation_fn:
 			deconv = tf.nn.relu(deconv)
 			deconv = tf.contrib.layers.batch_norm(deconv, center=True, scale=True,
-												  decay=0.99, is_training=is_train, updates_collections=None)
+												  decay=0.9, is_training=is_train, updates_collections=None)
 		else:
 			deconv = activation_fn(deconv)
 

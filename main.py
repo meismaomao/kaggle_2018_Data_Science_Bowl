@@ -1,4 +1,4 @@
-from pixel2pixel import pixel2pixel
+from auto_encode_pixel2pixel import pixel2pixel
 import tensorflow as tf
 
 def main(argv=None):
