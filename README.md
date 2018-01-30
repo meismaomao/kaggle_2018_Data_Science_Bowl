@@ -2,10 +2,10 @@
  <strong>Kaggle Data Science Bowl 2018 </strong> 
 </p> </h1>
 
-###<strong>TEAM MEMBERS: </strong><a>qiulong yuan</a>, <a>weizhe zhang</a>, <a>Yan</a>
+<strong>TEAM MEMBERS: </strong><a>qiulong yuan</a>, <a>weizhe zhang</a>, <a>Yan</a>
 
 ***
-[![Kaggle Data Science Bowl 2018. ](https://www.kaggle.com/c/data-science-bowl-2018)
+![Kaggle Data Science Bowl 2018. ](https://www.kaggle.com/c/data-science-bowl-2018)
 
 ***
 ### <strong>START DATE:</strong> Tuesday, January 16, 2018
