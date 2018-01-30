@@ -2,7 +2,7 @@ import tensorflow as tf
 import cv2
 import numpy as np
 import os
-
+import matplotlib.pyplot as plt
 
 SAVE_PATH = './dataset.tfrecords'
 NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 650

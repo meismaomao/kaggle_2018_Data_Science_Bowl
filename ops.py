@@ -1,4 +1,5 @@
 import tensorflow as tf
+import numpy as np
 
 def lrelu(x, leak=0.2):
 	return tf.maximum(x, leak * x)
@@ -39,7 +40,7 @@ def deconv2d_1(input, height, width, output_channels, input_channels, is_train,
 		deconv = tf.nn.bias_add(deconv, bias)
 
 		if not activation_fn:
-			# deconv = tf.nn.relu(deconv)
+			deconv = tf.nn.relu(deconv)
 			deconv = tf.contrib.layers.batch_norm(deconv, center=True, scale=True,
 												  decay=0.9, is_training=is_train, updates_collections=None)
 		else:
